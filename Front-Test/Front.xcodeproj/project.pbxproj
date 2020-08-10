@@ -22,6 +22,19 @@
 		68D77DCE24E0954B00770966 /* kLineForMonth.json in Resources */ = {isa = PBXBuildFile; fileRef = 68D77DCD24E0954B00770966 /* kLineForMonth.json */; };
 		68D77DD024E0982B00770966 /* CompareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D77DCF24E0982B00770966 /* CompareViewController.swift */; };
 		68D77DF724E09CB000770966 /* JsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D77DF624E09CB000770966 /* JsonParser.swift */; };
+		68D77E0D24E122C800770966 /* HSDrawLayerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D77DFB24E122C800770966 /* HSDrawLayerProtocol.swift */; };
+		68D77E0E24E122C800770966 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D77DFD24E122C800770966 /* Extension.swift */; };
+		68D77E0F24E122C800770966 /* HSStockChartNameSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D77DFE24E122C800770966 /* HSStockChartNameSpace.swift */; };
+		68D77E1124E122C800770966 /* HSKLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D77E0224E122C800770966 /* HSKLine.swift */; };
+		68D77E1224E122C800770966 /* HSKLineCoordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D77E0324E122C800770966 /* HSKLineCoordModel.swift */; };
+		68D77E1324E122C800770966 /* HSKLineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D77E0424E122C800770966 /* HSKLineModel.swift */; };
+		68D77E1424E122C800770966 /* HSKLineStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D77E0524E122C800770966 /* HSKLineStyle.swift */; };
+		68D77E1524E122C800770966 /* HSKLineUpFrontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D77E0624E122C800770966 /* HSKLineUpFrontView.swift */; };
+		68D77E1624E122C800770966 /* HSKLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D77E0724E122C800770966 /* HSKLineView.swift */; };
+		68D77E1724E122C800770966 /* HSTimeLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D77E0924E122C800770966 /* HSTimeLine.swift */; };
+		68D77E1824E122C800770966 /* HSTimeLineCoordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D77E0A24E122C800770966 /* HSTimeLineCoordModel.swift */; };
+		68D77E1924E122C800770966 /* HSTimeLineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D77E0B24E122C800770966 /* HSTimeLineModel.swift */; };
+		68D77E1A24E122C800770966 /* HSTimeLineStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D77E0C24E122C800770966 /* HSTimeLineStyle.swift */; };
 		6CE2E887459C06FBE0001FA2 /* Pods_Front.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E3B9BC83F22EA49D32B94C /* Pods_Front.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +56,20 @@
 		68D77DCD24E0954B00770966 /* kLineForMonth.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kLineForMonth.json; sourceTree = "<group>"; };
 		68D77DCF24E0982B00770966 /* CompareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareViewController.swift; sourceTree = "<group>"; };
 		68D77DF624E09CB000770966 /* JsonParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonParser.swift; sourceTree = "<group>"; };
+		68D77DFB24E122C800770966 /* HSDrawLayerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSDrawLayerProtocol.swift; sourceTree = "<group>"; };
+		68D77DFD24E122C800770966 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		68D77DFE24E122C800770966 /* HSStockChartNameSpace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSStockChartNameSpace.swift; sourceTree = "<group>"; };
+		68D77DFF24E122C800770966 /* HSStockChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSStockChart.h; sourceTree = "<group>"; };
+		68D77E0224E122C800770966 /* HSKLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSKLine.swift; sourceTree = "<group>"; };
+		68D77E0324E122C800770966 /* HSKLineCoordModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSKLineCoordModel.swift; sourceTree = "<group>"; };
+		68D77E0424E122C800770966 /* HSKLineModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSKLineModel.swift; sourceTree = "<group>"; };
+		68D77E0524E122C800770966 /* HSKLineStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSKLineStyle.swift; sourceTree = "<group>"; };
+		68D77E0624E122C800770966 /* HSKLineUpFrontView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSKLineUpFrontView.swift; sourceTree = "<group>"; };
+		68D77E0724E122C800770966 /* HSKLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSKLineView.swift; sourceTree = "<group>"; };
+		68D77E0924E122C800770966 /* HSTimeLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSTimeLine.swift; sourceTree = "<group>"; };
+		68D77E0A24E122C800770966 /* HSTimeLineCoordModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSTimeLineCoordModel.swift; sourceTree = "<group>"; };
+		68D77E0B24E122C800770966 /* HSTimeLineModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSTimeLineModel.swift; sourceTree = "<group>"; };
+		68D77E0C24E122C800770966 /* HSTimeLineStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSTimeLineStyle.swift; sourceTree = "<group>"; };
 		77E3B9BC83F22EA49D32B94C /* Pods_Front.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Front.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B52304F16F2791D15A8151A /* Pods-Front.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Front.release.xcconfig"; path = "Target Support Files/Pods-Front/Pods-Front.release.xcconfig"; sourceTree = "<group>"; };
 		DC67C77E8BB5CB614F76B21A /* Pods-Front.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Front.debug.xcconfig"; path = "Target Support Files/Pods-Front/Pods-Front.debug.xcconfig"; sourceTree = "<group>"; };
@@ -81,6 +108,7 @@
 		687651B424DDD2DD004F87B5 /* Front */ = {
 			isa = PBXGroup;
 			children = (
+				68D77DF824E122C800770966 /* Library */,
 				68D77DBE24E042A600770966 /* Data */,
 				687651B524DDD2DD004F87B5 /* AppDelegate.swift */,
 				687651B724DDD2DD004F87B5 /* SceneDelegate.swift */,
@@ -107,6 +135,67 @@
 				68D77DC024E042A600770966 /* responseQuotesWeek.json */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		68D77DF824E122C800770966 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				68D77DF924E122C800770966 /* HSStockChart */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		68D77DF924E122C800770966 /* HSStockChart */ = {
+			isa = PBXGroup;
+			children = (
+				68D77DFF24E122C800770966 /* HSStockChart.h */,
+				68D77DFA24E122C800770966 /* DrawLayerProtocol */,
+				68D77DFC24E122C800770966 /* Helpers */,
+				68D77E0124E122C800770966 /* KLineChart */,
+				68D77E0824E122C800770966 /* TimeLineChart */,
+			);
+			path = HSStockChart;
+			sourceTree = "<group>";
+		};
+		68D77DFA24E122C800770966 /* DrawLayerProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				68D77DFB24E122C800770966 /* HSDrawLayerProtocol.swift */,
+			);
+			path = DrawLayerProtocol;
+			sourceTree = "<group>";
+		};
+		68D77DFC24E122C800770966 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				68D77DFD24E122C800770966 /* Extension.swift */,
+				68D77DFE24E122C800770966 /* HSStockChartNameSpace.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		68D77E0124E122C800770966 /* KLineChart */ = {
+			isa = PBXGroup;
+			children = (
+				68D77E0224E122C800770966 /* HSKLine.swift */,
+				68D77E0324E122C800770966 /* HSKLineCoordModel.swift */,
+				68D77E0424E122C800770966 /* HSKLineModel.swift */,
+				68D77E0524E122C800770966 /* HSKLineStyle.swift */,
+				68D77E0624E122C800770966 /* HSKLineUpFrontView.swift */,
+				68D77E0724E122C800770966 /* HSKLineView.swift */,
+			);
+			path = KLineChart;
+			sourceTree = "<group>";
+		};
+		68D77E0824E122C800770966 /* TimeLineChart */ = {
+			isa = PBXGroup;
+			children = (
+				68D77E0924E122C800770966 /* HSTimeLine.swift */,
+				68D77E0A24E122C800770966 /* HSTimeLineCoordModel.swift */,
+				68D77E0B24E122C800770966 /* HSTimeLineModel.swift */,
+				68D77E0C24E122C800770966 /* HSTimeLineStyle.swift */,
+			);
+			path = TimeLineChart;
 			sourceTree = "<group>";
 		};
 		C3311EBDAAAEE2C7763534EF /* Frameworks */ = {
@@ -246,12 +335,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68D77E1124E122C800770966 /* HSKLine.swift in Sources */,
+				68D77E1724E122C800770966 /* HSTimeLine.swift in Sources */,
+				68D77E0E24E122C800770966 /* Extension.swift in Sources */,
+				68D77E1A24E122C800770966 /* HSTimeLineStyle.swift in Sources */,
+				68D77E1424E122C800770966 /* HSKLineStyle.swift in Sources */,
+				68D77E1524E122C800770966 /* HSKLineUpFrontView.swift in Sources */,
+				68D77E1324E122C800770966 /* HSKLineModel.swift in Sources */,
+				68D77E1624E122C800770966 /* HSKLineView.swift in Sources */,
+				68D77E1824E122C800770966 /* HSTimeLineCoordModel.swift in Sources */,
 				68D77DC624E04C1700770966 /* Models.swift in Sources */,
 				687651BA24DDD2DD004F87B5 /* StockViewController.swift in Sources */,
+				68D77E1924E122C800770966 /* HSTimeLineModel.swift in Sources */,
 				68D77DD024E0982B00770966 /* CompareViewController.swift in Sources */,
 				687651B624DDD2DD004F87B5 /* AppDelegate.swift in Sources */,
+				68D77E0D24E122C800770966 /* HSDrawLayerProtocol.swift in Sources */,
 				687651B824DDD2DD004F87B5 /* SceneDelegate.swift in Sources */,
+				68D77E1224E122C800770966 /* HSKLineCoordModel.swift in Sources */,
 				68D77DF724E09CB000770966 /* JsonParser.swift in Sources */,
+				68D77E0F24E122C800770966 /* HSStockChartNameSpace.swift in Sources */,
 				68D77DC824E0534400770966 /* ChartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

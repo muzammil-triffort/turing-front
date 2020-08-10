@@ -8,7 +8,7 @@
 
 import Foundation
 import SwiftyJSON
-import HSStockChart
+//import HSStockChart
 
 func readLocalFile(forName name: String) -> Data? {
     do {

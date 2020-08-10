@@ -8,7 +8,6 @@
 
 import Foundation
 import UIKit
-import GDPerformanceView_Swift
 
 class CompareViewController: UIViewController {
 

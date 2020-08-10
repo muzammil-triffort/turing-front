@@ -3,28 +3,24 @@ PODS:
     - Charts/Core (= 3.5.0)
   - Charts/Core (3.5.0)
   - GDPerformanceView-Swift (2.0.3)
-  - HSStockChart (1.3.0)
   - SwiftyJSON (5.0.0)
 
 DEPENDENCIES:
   - Charts
   - GDPerformanceView-Swift
-  - HSStockChart
   - SwiftyJSON
 
 SPEC REPOS:
   trunk:
     - Charts
     - GDPerformanceView-Swift
-    - HSStockChart
     - SwiftyJSON
 
 SPEC CHECKSUMS:
   Charts: 40a08591df1f8ad5c223ddedfb1a06da92f24f7c
   GDPerformanceView-Swift: ef3d05deb103e472a5494d3f60aeca5a58b88a7d
-  HSStockChart: 2c6e0e3bcb2e5a345bf62c18d955bbc231d2f466
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: 97e55f57d54327b96517a3884f83381938bddcdf
+PODFILE CHECKSUM: 5b38b6a17686fdffb4558311781359d85e047cc0
 
 COCOAPODS: 1.9.3

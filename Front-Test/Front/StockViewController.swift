@@ -7,8 +7,9 @@
 //
 
 import UIKit
-import HSStockChart
+//import HSStockChart
 import Charts
+
 
 public let ScreenWidth = UIScreen.main.bounds.width
 public let ScreenHeight = UIScreen.main.bounds.height
@@ -27,8 +28,7 @@ class StockViewController: UIViewController {
     
     var selectedJSON: String = "responseQuotesWeek"
     var selectedSymbol: String = "AAPL"
-    
-    
+        
     override func viewDidLoad() {
         
         super.viewDidLoad()
@@ -46,12 +46,15 @@ class StockViewController: UIViewController {
             
         case 0:
             self.selectedJSON = "responseQuotesWeek"
+            self.chartType = .kLineForWeek
             break
         case 1:
              self.selectedJSON = "responseQuotesMonth"
+             self.chartType = .kLineForMonth
              break;
         default:
             self.selectedJSON = "responseQuotesWeek"
+            self.chartType = .kLineForWeek
         }
         
         if self.selectedSymbol == "Dummy" {
@@ -101,7 +104,7 @@ class StockViewController: UIViewController {
         }
         
         let chartRect = CGRect(x: 0, y: 0, width: ScreenWidth, height: self.chartContainerView.frame.size.height)
-        let stockChartView = HSKLineView(frame: chartRect, kLineType: .kLineForWeek, theme: HSKLineStyle())
+        let stockChartView = HSKLineView(frame: chartRect, kLineType: self.chartType, theme: HSKLineStyle())
         stockChartView.tag = chartType.rawValue
         let tmpDataK = Array(self.jsonArray[0 ..< self.jsonArray.count])
         stockChartView.configureView(data: tmpDataK)

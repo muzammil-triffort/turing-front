@@ -1,7 +1,7 @@
 
 import UIKit
 import SwiftyJSON
-import HSStockChart
+//import HSStockChart
 
 class ChartViewController: UIViewController {
     
