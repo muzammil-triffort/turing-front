@@ -1,26 +1,20 @@
 PODS:
-  - Charts (3.5.0):
-    - Charts/Core (= 3.5.0)
-  - Charts/Core (3.5.0)
   - GDPerformanceView-Swift (2.0.3)
   - SwiftyJSON (5.0.0)
 
 DEPENDENCIES:
-  - Charts
   - GDPerformanceView-Swift
   - SwiftyJSON
 
 SPEC REPOS:
   trunk:
-    - Charts
     - GDPerformanceView-Swift
     - SwiftyJSON
 
 SPEC CHECKSUMS:
-  Charts: 40a08591df1f8ad5c223ddedfb1a06da92f24f7c
   GDPerformanceView-Swift: ef3d05deb103e472a5494d3f60aeca5a58b88a7d
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: 5b38b6a17686fdffb4558311781359d85e047cc0
+PODFILE CHECKSUM: e429dbe7f96fa935f2b5fd33a4f79e5f91f4fe30
 
 COCOAPODS: 1.9.3

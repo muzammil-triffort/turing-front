@@ -29,4 +29,23 @@ class stockModel {
     }
 }
 
+class PerformaceModel {
+
+    var timestamp: Double = 0
+    var aapl: Double        = 0
+    var msft: Double        = 0
+    var spy: Double         = 0
+    var hours: String       = ""
+    var date: String        = ""
+    
+    class func getStockBasicInfoModel(_ json: JSON) -> PerformaceModel {
+        
+        let model = PerformaceModel()
+        model.aapl = 0.0
+        model.msft = 0.0
+        model.spy  = 0.0
+        
+        return model
+    }
+}
 

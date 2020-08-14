@@ -3,25 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		687651B624DDD2DD004F87B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687651B524DDD2DD004F87B5 /* AppDelegate.swift */; };
-		687651B824DDD2DD004F87B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687651B724DDD2DD004F87B5 /* SceneDelegate.swift */; };
-		687651BA24DDD2DD004F87B5 /* StockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687651B924DDD2DD004F87B5 /* StockViewController.swift */; };
 		687651BD24DDD2DD004F87B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 687651BB24DDD2DD004F87B5 /* Main.storyboard */; };
 		687651BF24DDD2DE004F87B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 687651BE24DDD2DE004F87B5 /* Assets.xcassets */; };
 		687651C224DDD2DE004F87B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 687651C024DDD2DE004F87B5 /* LaunchScreen.storyboard */; };
+		68D490C524E71A7B00C98428 /* Chart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D490C224E71A7B00C98428 /* Chart.swift */; };
+		68D490C624E71A7B00C98428 /* ChartColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D490C324E71A7B00C98428 /* ChartColors.swift */; };
+		68D490C724E71A7B00C98428 /* ChartSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D490C424E71A7B00C98428 /* ChartSeries.swift */; };
+		68D490CF24E73F8D00C98428 /* JsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D490C924E73F8D00C98428 /* JsonParser.swift */; };
+		68D490D024E73F8D00C98428 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D490CA24E73F8D00C98428 /* Models.swift */; };
+		68D490D224E73F8D00C98428 /* PerformaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D490CD24E73F8D00C98428 /* PerformaceViewController.swift */; };
+		68D490D324E73F8D00C98428 /* StockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D490CE24E73F8D00C98428 /* StockViewController.swift */; };
+		68D490D924E7411D00C98428 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D490D824E7411D00C98428 /* ChartViewController.swift */; };
 		68D77DC124E042A600770966 /* responseQuotesMonth.json in Resources */ = {isa = PBXBuildFile; fileRef = 68D77DBF24E042A600770966 /* responseQuotesMonth.json */; };
 		68D77DC224E042A600770966 /* responseQuotesWeek.json in Resources */ = {isa = PBXBuildFile; fileRef = 68D77DC024E042A600770966 /* responseQuotesWeek.json */; };
-		68D77DC624E04C1700770966 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D77DC524E04C1700770966 /* Models.swift */; };
-		68D77DC824E0534400770966 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D77DC724E0534400770966 /* ChartViewController.swift */; };
-		68D77DCA24E0538E00770966 /* initial.json in Resources */ = {isa = PBXBuildFile; fileRef = 68D77DC924E0538E00770966 /* initial.json */; };
 		68D77DCC24E07A7C00770966 /* kLineForWeek.json in Resources */ = {isa = PBXBuildFile; fileRef = 68D77DCB24E07A7C00770966 /* kLineForWeek.json */; };
 		68D77DCE24E0954B00770966 /* kLineForMonth.json in Resources */ = {isa = PBXBuildFile; fileRef = 68D77DCD24E0954B00770966 /* kLineForMonth.json */; };
-		68D77DD024E0982B00770966 /* CompareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D77DCF24E0982B00770966 /* CompareViewController.swift */; };
-		68D77DF724E09CB000770966 /* JsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D77DF624E09CB000770966 /* JsonParser.swift */; };
 		68D77E0D24E122C800770966 /* HSDrawLayerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D77DFB24E122C800770966 /* HSDrawLayerProtocol.swift */; };
 		68D77E0E24E122C800770966 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D77DFD24E122C800770966 /* Extension.swift */; };
 		68D77E0F24E122C800770966 /* HSStockChartNameSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D77DFE24E122C800770966 /* HSStockChartNameSpace.swift */; };
@@ -35,27 +36,29 @@
 		68D77E1824E122C800770966 /* HSTimeLineCoordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D77E0A24E122C800770966 /* HSTimeLineCoordModel.swift */; };
 		68D77E1924E122C800770966 /* HSTimeLineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D77E0B24E122C800770966 /* HSTimeLineModel.swift */; };
 		68D77E1A24E122C800770966 /* HSTimeLineStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D77E0C24E122C800770966 /* HSTimeLineStyle.swift */; };
-		6CE2E887459C06FBE0001FA2 /* Pods_Front.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E3B9BC83F22EA49D32B94C /* Pods_Front.framework */; };
+		6D15087CE5AFB1CE9D97142F /* libPods-Front.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 513D8564BF915B1E96C67616 /* libPods-Front.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		513D8564BF915B1E96C67616 /* libPods-Front.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Front.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		687651B224DDD2DD004F87B5 /* Front.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Front.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		687651B524DDD2DD004F87B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		687651B724DDD2DD004F87B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		687651B924DDD2DD004F87B5 /* StockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockViewController.swift; sourceTree = "<group>"; };
 		687651BC24DDD2DD004F87B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		687651BE24DDD2DE004F87B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		687651C124DDD2DE004F87B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		687651C324DDD2DE004F87B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68D490C224E71A7B00C98428 /* Chart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chart.swift; sourceTree = "<group>"; };
+		68D490C324E71A7B00C98428 /* ChartColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartColors.swift; sourceTree = "<group>"; };
+		68D490C424E71A7B00C98428 /* ChartSeries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartSeries.swift; sourceTree = "<group>"; };
+		68D490C924E73F8D00C98428 /* JsonParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonParser.swift; sourceTree = "<group>"; };
+		68D490CA24E73F8D00C98428 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		68D490CD24E73F8D00C98428 /* PerformaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerformaceViewController.swift; sourceTree = "<group>"; };
+		68D490CE24E73F8D00C98428 /* StockViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockViewController.swift; sourceTree = "<group>"; };
+		68D490D824E7411D00C98428 /* ChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
 		68D77DBF24E042A600770966 /* responseQuotesMonth.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = responseQuotesMonth.json; sourceTree = "<group>"; };
 		68D77DC024E042A600770966 /* responseQuotesWeek.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = responseQuotesWeek.json; sourceTree = "<group>"; };
-		68D77DC524E04C1700770966 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
-		68D77DC724E0534400770966 /* ChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
-		68D77DC924E0538E00770966 /* initial.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = initial.json; sourceTree = "<group>"; };
 		68D77DCB24E07A7C00770966 /* kLineForWeek.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kLineForWeek.json; sourceTree = "<group>"; };
 		68D77DCD24E0954B00770966 /* kLineForMonth.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kLineForMonth.json; sourceTree = "<group>"; };
-		68D77DCF24E0982B00770966 /* CompareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareViewController.swift; sourceTree = "<group>"; };
-		68D77DF624E09CB000770966 /* JsonParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonParser.swift; sourceTree = "<group>"; };
 		68D77DFB24E122C800770966 /* HSDrawLayerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSDrawLayerProtocol.swift; sourceTree = "<group>"; };
 		68D77DFD24E122C800770966 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		68D77DFE24E122C800770966 /* HSStockChartNameSpace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSStockChartNameSpace.swift; sourceTree = "<group>"; };
@@ -70,7 +73,6 @@
 		68D77E0A24E122C800770966 /* HSTimeLineCoordModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSTimeLineCoordModel.swift; sourceTree = "<group>"; };
 		68D77E0B24E122C800770966 /* HSTimeLineModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSTimeLineModel.swift; sourceTree = "<group>"; };
 		68D77E0C24E122C800770966 /* HSTimeLineStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSTimeLineStyle.swift; sourceTree = "<group>"; };
-		77E3B9BC83F22EA49D32B94C /* Pods_Front.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Front.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B52304F16F2791D15A8151A /* Pods-Front.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Front.release.xcconfig"; path = "Target Support Files/Pods-Front/Pods-Front.release.xcconfig"; sourceTree = "<group>"; };
 		DC67C77E8BB5CB614F76B21A /* Pods-Front.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Front.debug.xcconfig"; path = "Target Support Files/Pods-Front/Pods-Front.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CE2E887459C06FBE0001FA2 /* Pods_Front.framework in Frameworks */,
+				6D15087CE5AFB1CE9D97142F /* libPods-Front.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,27 +110,66 @@
 		687651B424DDD2DD004F87B5 /* Front */ = {
 			isa = PBXGroup;
 			children = (
+				68D490DB24E7417C00C98428 /* Delegates */,
+				68D490DA24E7416E00C98428 /* Storyboards */,
 				68D77DF824E122C800770966 /* Library */,
 				68D77DBE24E042A600770966 /* Data */,
-				687651B524DDD2DD004F87B5 /* AppDelegate.swift */,
-				687651B724DDD2DD004F87B5 /* SceneDelegate.swift */,
-				68D77DCF24E0982B00770966 /* CompareViewController.swift */,
-				687651B924DDD2DD004F87B5 /* StockViewController.swift */,
-				68D77DC724E0534400770966 /* ChartViewController.swift */,
-				68D77DF624E09CB000770966 /* JsonParser.swift */,
-				68D77DC524E04C1700770966 /* Models.swift */,
-				687651BB24DDD2DD004F87B5 /* Main.storyboard */,
-				687651BE24DDD2DE004F87B5 /* Assets.xcassets */,
-				687651C024DDD2DE004F87B5 /* LaunchScreen.storyboard */,
-				687651C324DDD2DE004F87B5 /* Info.plist */,
+				68D490C824E73F8D00C98428 /* Models */,
+				68D490CB24E73F8D00C98428 /* ViewControllers */,
 			);
 			path = Front;
+			sourceTree = "<group>";
+		};
+		68D490C124E71A7B00C98428 /* SwiftChart */ = {
+			isa = PBXGroup;
+			children = (
+				68D490C224E71A7B00C98428 /* Chart.swift */,
+				68D490C324E71A7B00C98428 /* ChartColors.swift */,
+				68D490C424E71A7B00C98428 /* ChartSeries.swift */,
+			);
+			path = SwiftChart;
+			sourceTree = "<group>";
+		};
+		68D490C824E73F8D00C98428 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				68D490CA24E73F8D00C98428 /* Models.swift */,
+				68D490C924E73F8D00C98428 /* JsonParser.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		68D490CB24E73F8D00C98428 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				68D490CD24E73F8D00C98428 /* PerformaceViewController.swift */,
+				68D490CE24E73F8D00C98428 /* StockViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		68D490DA24E7416E00C98428 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				687651BE24DDD2DE004F87B5 /* Assets.xcassets */,
+				687651C024DDD2DE004F87B5 /* LaunchScreen.storyboard */,
+				687651BB24DDD2DD004F87B5 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		68D490DB24E7417C00C98428 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				687651C324DDD2DE004F87B5 /* Info.plist */,
+				687651B524DDD2DD004F87B5 /* AppDelegate.swift */,
+			);
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 		68D77DBE24E042A600770966 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				68D77DC924E0538E00770966 /* initial.json */,
 				68D77DCB24E07A7C00770966 /* kLineForWeek.json */,
 				68D77DCD24E0954B00770966 /* kLineForMonth.json */,
 				68D77DBF24E042A600770966 /* responseQuotesMonth.json */,
@@ -140,6 +181,7 @@
 		68D77DF824E122C800770966 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				68D490C124E71A7B00C98428 /* SwiftChart */,
 				68D77DF924E122C800770966 /* HSStockChart */,
 			);
 			path = Library;
@@ -148,6 +190,7 @@
 		68D77DF924E122C800770966 /* HSStockChart */ = {
 			isa = PBXGroup;
 			children = (
+				68D490D824E7411D00C98428 /* ChartViewController.swift */,
 				68D77DFF24E122C800770966 /* HSStockChart.h */,
 				68D77DFA24E122C800770966 /* DrawLayerProtocol */,
 				68D77DFC24E122C800770966 /* Helpers */,
@@ -201,7 +244,7 @@
 		C3311EBDAAAEE2C7763534EF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				77E3B9BC83F22EA49D32B94C /* Pods_Front.framework */,
+				513D8564BF915B1E96C67616 /* libPods-Front.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -226,7 +269,6 @@
 				687651AE24DDD2DD004F87B5 /* Sources */,
 				687651AF24DDD2DD004F87B5 /* Frameworks */,
 				687651B024DDD2DD004F87B5 /* Resources */,
-				3A9D5F6BFD024E474998F162 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -281,7 +323,6 @@
 				687651BF24DDD2DE004F87B5 /* Assets.xcassets in Resources */,
 				68D77DC124E042A600770966 /* responseQuotesMonth.json in Resources */,
 				68D77DCC24E07A7C00770966 /* kLineForWeek.json in Resources */,
-				68D77DCA24E0538E00770966 /* initial.json in Resources */,
 				687651BD24DDD2DD004F87B5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,23 +352,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3A9D5F6BFD024E474998F162 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Front/Pods-Front-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Front/Pods-Front-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Front/Pods-Front-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -336,25 +360,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				68D77E1124E122C800770966 /* HSKLine.swift in Sources */,
+				68D490D924E7411D00C98428 /* ChartViewController.swift in Sources */,
 				68D77E1724E122C800770966 /* HSTimeLine.swift in Sources */,
 				68D77E0E24E122C800770966 /* Extension.swift in Sources */,
+				68D490D024E73F8D00C98428 /* Models.swift in Sources */,
 				68D77E1A24E122C800770966 /* HSTimeLineStyle.swift in Sources */,
 				68D77E1424E122C800770966 /* HSKLineStyle.swift in Sources */,
 				68D77E1524E122C800770966 /* HSKLineUpFrontView.swift in Sources */,
 				68D77E1324E122C800770966 /* HSKLineModel.swift in Sources */,
+				68D490CF24E73F8D00C98428 /* JsonParser.swift in Sources */,
 				68D77E1624E122C800770966 /* HSKLineView.swift in Sources */,
+				68D490D324E73F8D00C98428 /* StockViewController.swift in Sources */,
+				68D490C524E71A7B00C98428 /* Chart.swift in Sources */,
 				68D77E1824E122C800770966 /* HSTimeLineCoordModel.swift in Sources */,
-				68D77DC624E04C1700770966 /* Models.swift in Sources */,
-				687651BA24DDD2DD004F87B5 /* StockViewController.swift in Sources */,
 				68D77E1924E122C800770966 /* HSTimeLineModel.swift in Sources */,
-				68D77DD024E0982B00770966 /* CompareViewController.swift in Sources */,
 				687651B624DDD2DD004F87B5 /* AppDelegate.swift in Sources */,
 				68D77E0D24E122C800770966 /* HSDrawLayerProtocol.swift in Sources */,
-				687651B824DDD2DD004F87B5 /* SceneDelegate.swift in Sources */,
 				68D77E1224E122C800770966 /* HSKLineCoordModel.swift in Sources */,
-				68D77DF724E09CB000770966 /* JsonParser.swift in Sources */,
 				68D77E0F24E122C800770966 /* HSStockChartNameSpace.swift in Sources */,
-				68D77DC824E0534400770966 /* ChartViewController.swift in Sources */,
+				68D490C624E71A7B00C98428 /* ChartColors.swift in Sources */,
+				68D490D224E73F8D00C98428 /* PerformaceViewController.swift in Sources */,
+				68D490C724E71A7B00C98428 /* ChartSeries.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,8 +527,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C99TFAX5MP;
-				INFOPLIST_FILE = Front/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				INFOPLIST_FILE = "$(SRCROOT)/Front/Delegates/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -521,8 +547,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C99TFAX5MP;
-				INFOPLIST_FILE = Front/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				INFOPLIST_FILE = "$(SRCROOT)/Front/Delegates/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
