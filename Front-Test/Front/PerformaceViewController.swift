@@ -9,13 +9,13 @@
 import Foundation
 import UIKit
 
-class CompareViewController: UIViewController {
+class PerformaceViewController: UIViewController {
 
     override func viewDidLoad() {
         
         super.viewDidLoad()
         
-        self.title = "Front - Turing - Compare"
+        self.title = "Front - Turing - Performance"
         
     }
 }
