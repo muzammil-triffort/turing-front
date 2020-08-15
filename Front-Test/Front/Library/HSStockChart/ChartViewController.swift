@@ -41,7 +41,7 @@ class ChartViewController: UIViewController {
     
     func setUpViewController() {
         
-        let stockBasicInfo = stockModel.getStockBasicInfoModel(getJsonDataFromFile("initial"))
+        let stockBasicInfo = StockModel.getStockBasicInfoModel(getJsonDataFromFile("initial"))
         
         switch chartType {
         case .timeLineForDay:
@@ -134,7 +134,7 @@ class ChartViewController: UIViewController {
         return modelArray
     }
 
-    func getTimeLineModelArray(_ json: JSON, type: HSChartType, basicInfo: stockModel) -> [HSTimeLineModel] {
+    func getTimeLineModelArray(_ json: JSON, type: HSChartType, basicInfo: StockModel) -> [HSTimeLineModel] {
         var modelArray = [HSTimeLineModel]()
         var toComparePrice: CGFloat = 0
 

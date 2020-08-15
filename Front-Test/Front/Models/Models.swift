@@ -9,7 +9,7 @@
 import Foundation
 import SwiftyJSON
 
-class stockModel {
+class StockModel {
 
     var stockName: String   = ""
     var timestamp: NSNumber = 0
@@ -19,9 +19,9 @@ class stockModel {
     var high: Double        = 0
     var low: Double         = 0
     
-    class func getStockBasicInfoModel(_ json: JSON) -> stockModel {
+    class func getStockBasicInfoModel(_ json: JSON) -> StockModel {
         
-        let model = stockModel()
+        let model = StockModel()
         model.stockName = ""
         model.close = 0
         

@@ -29,7 +29,7 @@ class StockViewController: UIViewController {
         
         super.viewDidLoad()
         
-        self.title = "Front - Turing - Candlestick"
+        self.title = NSLocalizedString("Front - Turing - Candlestick", comment: "")
         
         self.jsonArray = getStockData(forJSON: self.selectedJSON, symbol: "AAPL")
         

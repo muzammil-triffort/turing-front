@@ -2,7 +2,7 @@
 //  PerformaceViewController.swift
 //  Front
 //
-//  Created by Muzammil Mohammad on 09/08/20.
+//  Created by Muzammil Mohammad on 10/08/20.
 //  Copyright © 2020 Turing. All rights reserved.
 //
 
@@ -21,7 +21,7 @@ class PerformaceViewController: UIViewController {
         
         super.viewDidLoad()
         
-        self.title = "Front - Turing - Performance"
+        self.title = NSLocalizedString("Front - Turing - Performance", comment: "")
         
         self.chartContainerView.isUserInteractionEnabled = true
         self.jsonArray = getPerformanceData(forJSON: "responseQuotesWeek")
@@ -79,16 +79,12 @@ class PerformaceViewController: UIViewController {
             if self.selectedJSON == "week" {
                 datesArray.append(model.hours)
             }
-            else
-            {
+            else {
                 datesArray.append(model.date)
             }
         }
-        
-        chart.xStringLabels = datesArray
-        
+                
         let series1 = ChartSeries(series1Array)
-        
         series1.color = ChartColors.yellowColor()
         series1.area = true
 
@@ -101,6 +97,8 @@ class PerformaceViewController: UIViewController {
         series3.area = true
         
         chart.showXLabelsAndGrid = true
+        chart.xLabelsSkipLast = false
+        chart.xStringLabels = datesArray
         chart.add([series1, series2, series3])
         
         self.scrollView.addSubview(chart)
